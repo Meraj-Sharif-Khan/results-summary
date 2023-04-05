@@ -142,6 +142,7 @@ a {
   padding: 1.5rem;
   margin: 1.5rem 0;
   transition: all 0.2s;
+  cursor: pointer;
 }
 .tile:hover {
   transform: scale(1.02);
@@ -219,20 +220,10 @@ a {
   text-align: center;
 }
 
-/* Grid */
-.grid {
-  display: grid;
-}
-
-.grid--1x2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
 /* Summery Block */
 
 .summery--block {
   padding: 3.5rem;
-  border: 1px solid red;
 }
 .summery--block .summery__heading {
   font-size: 2rem;
@@ -242,9 +233,34 @@ a {
 
 @media screen and (min-width: 768px) {
   .summery--block {
-    padding: 3.5rem;
     height: 50.1rem;
     width: 37rem;
-    border: 1px solid red;
   }
+}
+/* Grid */
+.box--shadow {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+}
+
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 37rem);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* attribution */
+.attribution {
+  transform: translateY(2rem);
 }

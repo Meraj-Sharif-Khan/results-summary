@@ -33,58 +33,88 @@
     </style>
   </head>
   <body>
-    <div class="summery--block">
-      <h2 class="summery__heading">Summery</h2>
-      <section class="tile tile--red">
-        <div class="title">
-          <svg class="icon">
-            <use xlink:href="./images/sprite.svg#icon-reaction"></use>
-          </svg>
-          <p>Reaction</p>
-        </div>
-        <div class="score">
-          <h2>80</h2>
-          <p>/ 100</p>
-        </div>
-      </section>
-      <section class="tile tile--yellow">
-        <div class="title">
-          <svg class="icon">
-            <use xlink:href="./images/sprite.svg#icon-memory"></use>
-          </svg>
-          <p>Memory</p>
-        </div>
-        <div class="score">
-          <h2>80</h2>
-          <p>/ 100</p>
-        </div>
-      </section>
-      <section class="tile tile--green">
-        <div class="title">
-          <svg class="icon">
-            <use xlink:href="./images/sprite.svg#icon-verbal"></use>
-          </svg>
-          <p>Verbal</p>
-        </div>
-        <div class="score">
-          <h2>80</h2>
-          <p>/ 100</p>
-        </div>
-      </section>
-      <section class="tile tile--blue">
-        <div class="title">
-          <svg class="icon">
-            <use xlink:href="./images/sprite.svg#icon-visual"></use>
-          </svg>
-          <p>Visual</p>
-        </div>
-        <div class="score">
-          <h2>80</h2>
-          <p>/ 100</p>
-        </div>
-      </section>
+    <main class="container">
+      <div class="grid grid--1x2 box--shadow">
+        <section class="result--card result-card--gradient">
+          <h1 class="result__heading">Your Result</h1>
+          <div class="result-circle result-circle--gradient">
+            <h2 class="score">76</h2>
+            <p>of 100</p>
+          </div>
+          <span class="result__state">Great</span>
+          <p class="result__description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
 
-      <a href="/" class="btn btn--primary btn--block">Continue</a>
-    </div>
+        <section class="summery--block">
+          <h2 class="summery__heading">Summery</h2>
+
+          <section class="tile tile--red">
+            <div class="title">
+              <svg class="icon">
+                <use xlink:href="./images/sprite.svg#icon-reaction"></use>
+              </svg>
+              <p>Reaction</p>
+            </div>
+            <div class="score">
+              <h2>80</h2>
+              <p>/ 100</p>
+            </div>
+          </section>
+
+          <section class="tile tile--yellow">
+            <div class="title">
+              <svg class="icon">
+                <use xlink:href="./images/sprite.svg#icon-memory"></use>
+              </svg>
+              <p>Memory</p>
+            </div>
+            <div class="score">
+              <h2>92</h2>
+              <p>/ 100</p>
+            </div>
+          </section>
+
+          <section class="tile tile--green">
+            <div class="title">
+              <svg class="icon">
+                <use xlink:href="./images/sprite.svg#icon-verbal"></use>
+              </svg>
+              <p>Verbal</p>
+            </div>
+            <div class="score">
+              <h2>71</h2>
+              <p>/ 100</p>
+            </div>
+          </section>
+
+          <section class="tile tile--blue">
+            <div class="title">
+              <svg class="icon">
+                <use xlink:href="./images/sprite.svg#icon-visual"></use>
+              </svg>
+              <p>Visual</p>
+            </div>
+            <div class="score">
+              <h2>62</h2>
+              <p>/ 100</p>
+            </div>
+          </section>
+
+          <a href="/" class="btn btn--primary btn--block">Continue</a>
+        </section>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/Meraj-Sharif-Khan"
+          >Meraj Sharif</a
+        >.
+      </div>
+    </main>
   </body>
 </html>
