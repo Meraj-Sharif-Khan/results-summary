@@ -13,7 +13,7 @@
 
 ### Links
 
-- Solution URL: [solution URL]()
+- Solution URL: [solution URL](https://www.frontendmentor.io/home/my-challenges?tab=completed)
 - Live Site URL: [live site URL](https://meraj-sharif-khan.github.io/results-summary/)
 
 ### Built with
