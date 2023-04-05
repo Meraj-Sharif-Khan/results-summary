@@ -1,5 +1,5 @@
 :root {
-  /* Background Gradient */
+  /* Card Background Gradient */
   --Light-slate-blue: hsl(252, 100%, 67%);
   --Light-royal-blue: hsl(241, 81%, 54%);
   /* Circle Gradient */
@@ -123,4 +123,60 @@ P {
   .result__description {
     font-size: 2rem;
   }
+}
+
+/* Summery tile */
+.tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 5.5rem;
+  min-width: 20rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.tile--red {
+  background: hsla(0, 100%, 67%, 0.08);
+  color: hsl(0, 100%, 67%);
+}
+.tile--yellow {
+  background: hsla(39, 100%, 56%, 0.08);
+  color: hsl(39, 100%, 56%);
+}
+.tile--green {
+  background: hsla(166, 100%, 37%, 0.08);
+  color: hsl(166, 100%, 37%);
+}
+.tile--blue {
+  background: hsla(234, 85%, 45%, 0.08);
+  color: hsl(234, 85%, 45%);
+}
+
+.title {
+  display: flex;
+  align-self: center;
+  gap: 1rem;
+}
+.title .icon {
+  height: 2rem;
+  width: 2rem;
+}
+.title > p {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.score {
+  display: flex;
+  align-self: center;
+  gap: 5px;
+}
+.score h2 {
+  font-size: 1.5rem;
+  color: #323347;
+}
+.score p {
+  font-size: 1.5rem;
+  color: #a4a1b2;
 }
