@@ -27,6 +27,12 @@ P {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /* Result circel */
 .result-circle {
   display: flex;
@@ -183,4 +189,62 @@ P {
 .score p {
   font-size: 1.5rem;
   color: #a4a1b2;
+}
+
+/* Button */
+.btn {
+  border: none;
+  outline: transparent;
+  margin: 1.5rem 0;
+}
+.btn:hover {
+  background-image: linear-gradient(
+    hsla(252, 100%, 67%) 0%,
+    hsla(241, 81%, 54%)
+  );
+}
+
+.btn--primary {
+  background: #303b59;
+  color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 30px;
+  font-size: 1.8rem;
+}
+
+.btn--block {
+  width: 100%;
+  min-width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Summery Block */
+
+.summery--block {
+  padding: 3.5rem;
+  border: 1px solid red;
+}
+.summery--block .summery__heading {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #323a51;
+}
+
+@media screen and (min-width: 768px) {
+  .summery--block {
+    padding: 3.5rem;
+    height: 50.1rem;
+    width: 37rem;
+    border: 1px solid red;
+  }
 }
